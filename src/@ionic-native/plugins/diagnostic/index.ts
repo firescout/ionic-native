@@ -172,7 +172,7 @@ export class Diagnostic extends IonicNativePlugin {
   /**
    * Displays the device location settings to allow user to enable location services/change location mode.
    */
-  @Cordova({ sync: true, platforms: ['Android', 'Windows 10', 'iOS'] })
+  @Cordova({ sync: true, platforms: ['Android', 'Windows 10'] })
   switchToLocationSettings(): void { }
 
   /**
